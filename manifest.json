@@ -1,0 +1,26 @@
+{
+  "name": "Facebook Groups Search",
+  "description": "Select Facebook groups and search them all at once with a single keyword to find relevant posts quickly.",
+  "version": "1.0",
+  "author": "abufattahhossain@gmail.com",
+  "manifest_version": 3,
+  "permissions": ["storage", "declarativeContent", "activeTab", "scripting"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon.png",
+    "default_title": "Facebook Groups Search"
+  },
+  "background": {
+    "service_worker": "js/background.js"
+  },
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["https://www.facebook.com/*"],
+      "js": ["js/content.js"]
+    }
+  ]
+}
