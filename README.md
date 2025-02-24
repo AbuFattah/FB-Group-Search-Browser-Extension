@@ -9,8 +9,8 @@ Follow these steps to set up and test a Chrome extension locally.
 Clone the repository containing the extension's source code:
 
 ```bash
-git clone <repository-url>
-cd your-chrome-extension-repo
+git@github.com:AbuFattah/FB-Group-Search-Browser-Extension.git
+cd FB-Group-Search-Browser-Extension
 ```
 
 
