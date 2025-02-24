@@ -1,6 +1,3 @@
-Here’s the README in markdown format:
-
-````markdown
 # Setting Up a Chrome Extension Locally
 
 Follow these steps to set up and test a Chrome extension locally.
@@ -15,7 +12,7 @@ Clone the repository containing the extension's source code:
 git clone <repository-url>
 cd your-chrome-extension-repo
 ```
-````
+
 
 ### 2. **Enable Developer Mode in Chrome**
 
