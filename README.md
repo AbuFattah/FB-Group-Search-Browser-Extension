@@ -53,8 +53,3 @@ cd FB-Group-Search-Browser-Extension
 ---
 
 For more info, check out [Chrome Extensions Documentation](https://developer.chrome.com/docs/extensions/).
-
-```
-
-You can copy and paste this into your `README.md` file. Let me know if you'd like any further modifications! 😊
-```
